@@ -38,6 +38,6 @@ Jenkins pipeline to bulk configure GitLab push rules and merge request settings 
 
 ## Notes
 
-- Single project shows current values; groups/multiple projects show defaults.
-- Thus bulk editing means what you see is not related to the existing values in gitlab.
+- Single project shows current values; groups/multiple projects always show defaults.
+- Thus what you see before making any changes is not related to the existing per project values in gitlab.
 - Requires GitLab API token configured in Jenkins credentials
